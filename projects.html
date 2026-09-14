@@ -1,0 +1,422 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Kummari Laxman - Cloud and DevOps projects, Linux automation, Docker, and system monitoring.">
+
+    <title>Projects | Kummari Laxman</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Global Header CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Projects CSS -->
+    <link rel="stylesheet" href="css/projects.css">
+</head>
+
+<body>
+
+    <!-- ==================================================
+         HEADER - SAME AS HOME PAGE
+    ================================================== -->
+
+    <header class="site-header">
+
+        <div class="header-container">
+
+            <!-- Logo -->
+            <a href="index.html" class="site-logo">
+                Kummari Laxman
+            </a>
+
+            <!-- Desktop Navigation -->
+            <nav class="desktop-nav" aria-label="Main navigation">
+
+                <a href="index.html" class="nav-link">
+                    Home
+                </a>
+
+                <a href="about.html" class="nav-link">
+                    About
+                </a>
+
+                <a href="skills.html" class="nav-link">
+                    Skills
+                </a>
+
+                <a href="projects.html" class="nav-link active">
+                    Projects
+                </a>
+
+                <a href="certificates.html" class="nav-link">
+                    Certificates
+                </a>
+
+                <a href="experience.html" class="nav-link">
+                    Experience
+                </a>
+
+                <a href="achievements.html" class="nav-link">
+                    Achievements
+                </a>
+
+                <a href="contact.html" class="nav-link">
+                    Contact
+                </a>
+
+            </nav>
+
+            <!-- Resume Button -->
+            <a href="assets/resume.pdf"
+                class="resume-button"
+                download>
+
+                <i class="fa-solid fa-download"></i>
+
+                <span>Download Resume</span>
+
+            </a>
+
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-button"
+                id="mobileMenuButton"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false">
+
+                <i class="fa-solid fa-bars"></i>
+
+            </button>
+
+        </div>
+
+        <!-- Mobile Navigation -->
+        <nav class="mobile-nav"
+            id="mobileNav"
+            aria-label="Mobile navigation">
+
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html" class="active">Projects</a>
+            <a href="certificates.html">Certificates</a>
+            <a href="experience.html">Experience</a>
+            <a href="achievements.html">Achievements</a>
+            <a href="contact.html">Contact</a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- ==================================================
+         PROJECTS PAGE
+    ================================================== -->
+
+    <main>
+
+        <section class="projects-hero">
+
+            <div class="container">
+
+                <!-- Section Heading -->
+                <div class="section-heading">
+
+                    <p class="section-label">
+                        MY WORK
+                    </p>
+
+                    <h1>
+                        Projects that reflect my
+                        <span>technical skills.</span>
+                    </h1>
+
+                    <p class="section-description">
+                        A collection of projects built while exploring
+                        Cloud, DevOps, Linux systems, automation,
+                        and software testing.
+                    </p>
+
+                </div>
+
+
+                <!-- Projects Grid -->
+                <div class="projects-grid">
+
+
+                    <!-- PROJECT 01 -->
+                    <article class="project-card">
+
+                        <div class="project-visual linux-visual">
+
+                            <div class="visual-top">
+
+                                <span class="terminal-dot"></span>
+                                <span class="terminal-dot"></span>
+                                <span class="terminal-dot"></span>
+
+                                <span class="visual-title">
+                                    system-monitor
+                                </span>
+
+                            </div>
+
+                            <div class="terminal-content">
+
+                                <p>
+                                    <span class="terminal-prompt">$</span>
+                                    ./health-monitor.sh
+                                </p>
+
+                                <p class="terminal-success">
+                                    [OK] CPU usage
+                                </p>
+
+                                <p class="terminal-success">
+                                    [OK] Memory usage
+                                </p>
+
+                                <p class="terminal-warning">
+                                    [WARNING] Disk usage
+                                </p>
+
+                                <p class="terminal-success">
+                                    [OK] System health check
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="project-content">
+
+                            <div class="project-top">
+
+                                <span class="project-number">
+                                    01
+                                </span>
+
+                                <span class="project-type">
+                                    Linux / Automation
+                                </span>
+
+                            </div>
+
+                            <h2>
+                                Linux System Health Monitor
+                            </h2>
+
+                            <p class="project-description">
+                                A lightweight system monitoring tool
+                                designed to track CPU, memory, and
+                                disk usage and identify resource
+                                threshold breaches.
+                            </p>
+
+                            <div class="project-highlights">
+
+                                <p>
+                                    <span>01</span>
+                                    Monitors system resource usage.
+                                </p>
+
+                                <p>
+                                    <span>02</span>
+                                    Implements threshold-based alerts
+                                    and logging.
+                                </p>
+
+                                <p>
+                                    <span>03</span>
+                                    Generates periodic health reports.
+                                </p>
+
+                            </div>
+
+                            <div class="project-footer">
+
+                                <div class="tech-stack">
+
+                                    <span>Linux</span>
+                                    <span>Bash</span>
+                                    <span>Shell Scripting</span>
+
+                                </div>
+
+                                <a href="https://github.com/laxman548"
+                                    class="project-link"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+
+                                    GitHub
+                                    <span>↗</span>
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROJECT 02 -->
+                    <article class="project-card">
+
+                        <div class="project-visual docker-visual">
+
+                            <div class="docker-icon">
+
+                                <div class="docker-box">
+
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+
+                                </div>
+
+                            </div>
+
+                            <div class="docker-label">
+
+                                <span class="status-dot"></span>
+
+                                Containerized Environment
+
+                            </div>
+
+                            <div class="docker-services">
+
+                                <div class="service-box">
+
+                                    <strong>Docker</strong>
+
+                                    <small>Container</small>
+
+                                </div>
+
+                                <span class="service-arrow">→</span>
+
+                                <div class="service-box">
+
+                                    <strong>Nginx</strong>
+
+                                    <small>Web Server</small>
+
+                                </div>
+
+                            </div>
+
+                            <div class="docker-footer">
+
+                                <span>Automated Testing</span>
+
+                                <span>✓ Build Success</span>
+
+                            </div>
+
+                        </div>
+
+                        <div class="project-content">
+
+                            <div class="project-top">
+
+                                <span class="project-number">
+                                    02
+                                </span>
+
+                                <span class="project-type">
+                                    Cloud / DevOps
+                                </span>
+
+                            </div>
+
+                            <h2>
+                                Docker-Based Testing Environment
+                            </h2>
+
+                            <p class="project-description">
+                                An isolated and reproducible Docker
+                                environment for validating containerized
+                                applications and networking setups.
+                            </p>
+
+                            <div class="project-highlights">
+
+                                <p>
+                                    <span>01</span>
+                                    Designed Dockerfiles and Compose
+                                    configurations.
+                                </p>
+
+                                <p>
+                                    <span>02</span>
+                                    Set up multi-container services
+                                    for testing.
+                                </p>
+
+                                <p>
+                                    <span>03</span>
+                                    Created a reusable testbed for
+                                    consistent validation.
+                                </p>
+
+                            </div>
+
+                            <div class="project-footer">
+
+                                <div class="tech-stack">
+
+                                    <span>Docker</span>
+                                    <span>Linux</span>
+                                    <span>Networking</span>
+
+                                </div>
+
+                                <a href="https://github.com/laxman548"
+                                    class="project-link"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+
+                                    GitHub
+                                    <span>↗</span>
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
