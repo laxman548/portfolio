@@ -55,6 +55,17 @@
 
     gap: 55px;
 }
+@media (max-width: 900px) {
+
+    .mobile-nav .mobile-resume-button {
+        margin-top: 10px;
+        background: #315bea;
+        color: #ffffff;
+        text-align: center;
+        font-weight: 600;
+    }
+
+}
 
 
 /* =====================================================
