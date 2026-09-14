@@ -281,23 +281,97 @@ img {
 
 
 /* =====================================================
+   MOBILE MENU
+===================================================== */
+
+.mobile-menu-button {
+
+    display: none;
+
+    width: 42px;
+
+    height: 42px;
+
+    border: 0;
+
+    border-radius: 8px;
+
+    background: #f0f2ff;
+
+    color: #315bea;
+
+    font-size: 18px;
+
+    cursor: pointer;
+
+}
+
+
+.mobile-nav {
+
+    display: none;
+}
+
+
+/* =====================================================
+   TABLET HEADER
+===================================================== */
+
+@media (max-width: 1150px) {
+
+    .desktop-nav {
+
+        gap: 18px;
+
+    }
+
+    .nav-link {
+
+        font-size: 12px;
+
+    }
+
+    .resume-button {
+
+        min-width: 175px;
+
+    }
+
+}
+
+
+/* =====================================================
    MOBILE HEADER
 ===================================================== */
 
 @media (max-width: 900px) {
 
     .desktop-nav {
+
         display: none;
+
     }
 
 
     .resume-button {
+
         margin-left: auto;
+
     }
 
 
     .mobile-menu-button {
-        display: block;
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+        margin-left: 12px;
+
+        position: static;
+
     }
 
 
@@ -319,6 +393,7 @@ img {
 
         box-shadow:
             0 15px 30px rgba(30, 35, 80, 0.07);
+
     }
 
 
@@ -329,6 +404,7 @@ img {
         flex-direction: column;
 
         gap: 3px;
+
     }
 
 
@@ -343,6 +419,7 @@ img {
         font-size: 14px;
 
         font-weight: 500;
+
     }
 
 
@@ -351,6 +428,7 @@ img {
         background: #f3f4ff;
 
         color: #315bea;
+
     }
 
 }
