@@ -25,6 +25,14 @@ if (mobileMenuButton && mobileNav) {
         );
 
 
+        mobileMenuButton.setAttribute(
+            "aria-label",
+            isOpen
+                ? "Close navigation menu"
+                : "Open navigation menu"
+        );
+
+
         if (isOpen) {
 
             mobileMenuButton.innerHTML =
@@ -55,6 +63,11 @@ if (mobileMenuButton && mobileNav) {
             mobileMenuButton.setAttribute(
                 "aria-expanded",
                 "false"
+            );
+
+            mobileMenuButton.setAttribute(
+                "aria-label",
+                "Open navigation menu"
             );
 
             mobileMenuButton.innerHTML =
