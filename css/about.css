@@ -135,6 +135,18 @@
     align-items: center;
 
     justify-content: center;
+
+}
+
+
+@media (min-width: 901px) {
+
+    .about-photo-area {
+
+        transform: translateY(-190px);
+
+    }
+
 }
 
 
